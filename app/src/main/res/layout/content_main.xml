@@ -39,4 +39,16 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@id/button2"  />
 
+    <Button
+        android:id="@+id/buttonPrueba1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="SALUDO"
+        android:background="@color/azul"
+        app:layout_constraintBottom_toBottomOf="@id/button2"
+        app:layout_constraintLeft_toLeftOf="@id/button2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/button2"  />
+
 </android.support.constraint.ConstraintLayout>
